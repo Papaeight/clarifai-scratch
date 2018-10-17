@@ -67,7 +67,7 @@
         return imageDataURL;
     }
 
-    ext.initializeClarifai = function (apikey1, apikey2, callback) {
+    ext.initializeClarifai = function (apikey1, callback) {
       clarifai = new Clarifai.App({ apiKey: apikey1 });
       if (clarifai == undefined) {
         clarifaiLoaded = false;
