@@ -308,5 +308,5 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('Clarifai extension', descriptor, ext);
+    ScratchExtensions.register('ClarifaiSingleAPI extension', descriptor, ext);
 })({});
